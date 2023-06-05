@@ -54,7 +54,7 @@ Based on the findings of this project, the following recommendations are suggest
 
 1. Improve data collection: Collect more detailed data related to customer interactions, preferences, and feedback to enhance the model's predictive power.
 
-2. Explore additional features: Experiment with generating new features based on the existing data to capture more information about customer behavior and preferences.
+2. Feature Scaling & Explore additional features: Normalising the range of features because are varying in degrees of magnitude, range and units. Experiment with generating new features based on the existing data to capture more information about customer behavior and preferences.
 
 3. Incorporate external data sources: Consider integrating external data sources such as demographic data or social media sentiment analysis to augment the existing transaction history data.
 
