@@ -28,14 +28,14 @@ Catboost and Random Forest outshed other models with their default parameters. I
 
 ## Results
 
-The Random Forest Classifier model outperformed other models with an accuracy of 82%, F1-score of 85%, and AUC of 82%. The confusion matrix for the model is as follows:
+The Random Forest Classifier model outperformed other models with an accuracy of 83%, F1-score of 86%, and AUC of 81%. The confusion matrix for the model is as follows:
 
 ```
-[[1831  738]
- [ 379 3437]]
+[[1842  727]
+ [ 362 3454]]
 ```
 
-The AUC score of 0.876 indicates that the model has good discriminatory power in distinguishing between customers who will complain and those who will not.
+The AUC score of 0.88 indicates that the model has good discriminatory power in distinguishing between customers who will complain and those who will not.
 
 ## Conclusion
 
