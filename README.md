@@ -14,9 +14,7 @@ The project follows the following approach:
 
 2. **Data Preprocessing**: Handle missing values, perform feature engineering, and encode categorical variables to prepare the data for model training.
 
-3. **Feature Engineering & Feature Selection**: Utilizing datetime features and other historical informations to generate new features which are more insightiful and powerful in uncovering pattern to predict lilehood of customer to complain.
-
-Selected relevant features based on their significance in predicting customer complaints. Use Insights from Analysis, and domain knowledge to identify the most important features.
+3. **Feature Engineering & Feature Selection**: Utilizing datetime features and other historical informations to generate new features which are more insightiful and powerful in uncovering pattern to predict lilehood of customer to complain. Selected relevant features based on their significance in predicting customer complaints. Use Insights from Analysis, and domain knowledge to identify the most important features.
 
 4. **Model Training**: Trained a machine learning model using the 80% of labeled data to predict the likelihood of customer complaints. Evaluate multiple models such as Logistic Regression, Random Forest, LightGBM, and CatBoost to identify the best-performing model.
 Catboost and Random Forest outshed other models with their default parameters. I opt to move forward with Random Forest Model based on the goal and risks.
